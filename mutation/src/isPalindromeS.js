@@ -6,7 +6,7 @@ function isPalindrome(name) {
     }
     return true;
 }
-// console.log(isPalindrome(''))
+console.log(isPalindrome(''))
 module.exports = {
     isPalindrome
 }

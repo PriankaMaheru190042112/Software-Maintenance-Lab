@@ -17,7 +17,7 @@ function quickSort(arr) {
   
     return [...quickSort(leftArr), pivot, ...quickSort(rightArr)];
 }
-// console.log(quickSort([3, 7, 2, 5, 1]));
+console.log(quickSort([3, 7, 2, 5, 1]));
 
 module.exports = {
     quickSort
