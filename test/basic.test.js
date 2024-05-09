@@ -11,7 +11,7 @@ describe('Basic Calculator Operations', () => {
       [0, 89, 89],
       [-17, -35, -52],
       [65, -12, 53],
-      [-78, 24, -54]
+      [-78, 24, -54]   //huhub
     ];
 
     test.each(testData)('adds %i + %i to equal %i', (a, b, expected) => {
