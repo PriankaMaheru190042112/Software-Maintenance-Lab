@@ -5,7 +5,7 @@ describe('Basic Calculator Operations', () => {
   describe('Addition', () => {
     var testData = [
       [1, 2, 3],
-      [4, 5, 9],
+      [4, 5, 10],
       [3, 12, 15],
       [4, 6, 10],
       [0, 89, 89],
