@@ -5,13 +5,13 @@ describe('Basic Calculator Operations', () => {
   describe('Addition', () => {
     var testData = [
       [1, 2, 3],
-      [4, 5, 9],
+      [2, 3, 5],
       [3, 12, 15],
       [4, 6, 10],
       [0, 89, 89],
       [-17, -35, -52],
       [65, -12, 53],
-      [-78, 24, -54]   //huhub
+      [-78, 24, -54]   
     ];
 
     test.each(testData)('adds %i + %i to equal %i', (a, b, expected) => {
